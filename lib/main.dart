@@ -44,13 +44,12 @@ class _QuizPageState extends State<QuizPage> {
         quizBrain.reset();
         scoreKeeper = [];
       }
-      //Use IF/ELSE to check if we've reached the end of the quiz. If true, execute Part A, B, C, D.
-      //show an alert using rFlutter_alert (remember to read the docs for the package!)
-      //
+      //Use IF/ELSE to check if we've reached the end of the quiz. If true, execute Part A, B, C,D
       // reset the questionNumber,
+      
       //empty out the scoreKeeper.
 
-      // If we've not reached the end, ELSE do the answer checking steps below 👇
+      // If we've not reached the end, ELSE do the answer checking steps 
       else if (userPickedAnswer == correctAnswer) {
         scoreKeeper.add(Icon(
           Icons.thumb_up,
